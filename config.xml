@@ -30,14 +30,14 @@
      	  http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences 
      -->
     <preference name="permissions" value="none"/>
-    <preference name="orientation" value="default"/>
-    <preference name="target-device" value="universal"/>
+    <preference name="orientation" value="landscape"/>
+    <preference name="target-device" value="tablet"/>
     <preference name="fullscreen" value="false"/> <!-- set false to show android statusbar -->
     <preference name="webviewbounce" value="true"/>
     <preference name="prerendered-icon" value="true"/>
     <preference name="stay-in-webview" value="false"/>
     <preference name="detect-data-types" value="true"/>
-    <preference name="exit-on-suspend" value="false"/>
+    <preference name="exit-on-suspend" value="true"/>
     <preference name="show-splash-screen-spinner" value="true"/>
     <preference name="SplashScreen" value="screen" />
  	<preference name="SplashScreenDelay" value="5000" />
@@ -76,9 +76,14 @@
     <icon src="images/icon.png"/>
 
 	<!-- Android app branding artwork -->
-    
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="branding/screen/android/screen-ldpi-portrait.png"/>
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="branding/screen/android/screen-mdpi-portrait.png"/>
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="branding/screen/android/screen-hdpi-portrait.png"/>
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="branding/screen/android/screen-xhdpi-portrait.png"/>
+
+
 	<!-- iOS app branding artwork -->
-    <icon gap:platform="ios" width="144" height="144" src="images/icon.png"/>
+    <icon gap:platform="ios" width="144" height="144" src="branding/icon/ios/icon-72-2x.png"/>
 
 	<!-- Whitelist of urls this app may open in an InAppBrowser -->
     <access origin="*"/>
