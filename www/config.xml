@@ -32,7 +32,7 @@
     <preference name="permissions" value="none"/>
     <preference name="orientation" value="landscape"/>
     <preference name="target-device" value="tablet"/>
-    <preference name="fullscreen" value="false"/> <!-- set false to show android statusbar -->
+    <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
     <preference name="webviewbounce" value="true"/>
     <preference name="prerendered-icon" value="true"/>
     <preference name="stay-in-webview" value="false"/>
@@ -98,6 +98,15 @@
 	</gap:config-file>
 	-->
     <gap:platform name="ios"/>
+    <icon height="57" gap:platform="ios" width="57" src="images/icon.png"/>
+    <icon height="114" gap:platform="ios" width="114" src="images/icon.png"/>
+    <icon height="72" gap:platform="ios" width="72" src="images/icon.png"/>
+    <preference name="deployment-target" value="7.0"/>
+    <preference name="phonegap-version" value="3.6.3"/>
     <gap:splash src="images/splash.png"/>
+    <gap:splash height="1536" gap:platform="ios" width="2048" src="images/splash.png"/>
+    <gap:splash height="2048" gap:platform="ios" width="1536" src="images/splash.png"/>
+    <gap:splash height="768" gap:platform="ios" width="1024" src="images/splash.png"/>
+    <gap:splash height="1024" gap:platform="ios" width="768" src="images/splash.png"/>
 	
 </widget>
