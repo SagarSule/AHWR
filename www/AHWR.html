@@ -193,14 +193,13 @@
             name="mute" data-action-click-id="action44">MUTE</div>
           <div id="m1-AHWR-html1" class="m1-custom-html m1-border-2 m1-background-9"
             ><p></p>
-<input id="volumeslider" type="range" min="0.0" max="1.0" value=".8" step=".01"
-onchange ="volumechanger()">
+<input id="volslide" type="range" min="0.0" max="1.0" value=".8" step=".01"
+onchange ="vol()">
 
 <script>
-function volumechanger() {
-    var x = document.getElementById("volumeslider").value;
-    var y = "192.168.1.20:8080/?Volume=" + x;
-    $.get(y, function(data,status){});
+function vol() {
+    var x1 = document.getElementById("volslide").value;
+    $.get(url1 + "?Volume=" + x1, function(data,status){});
 }
 </script></div>
           <div id="m1-AHWR-text3" class="m1-text m1-font-8">VOLUME</div>
