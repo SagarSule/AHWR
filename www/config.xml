@@ -21,7 +21,7 @@
     -->
     <!-- <preference name="phonegap-version" value="3.5.0"/> -->
     
-	<preference name="StatusBarOverlaysWebView" value="false"/> 
+	<preference name="StatusBarOverlaysWebView" value="true"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
 	<preference name="StatusBarStyle" value="lightcontent"/>
     <!-- <preference name="ios-statusbarstyle" value="black-opaque"/> -->
@@ -33,9 +33,9 @@
     <preference name="orientation" value="landscape"/>
     <preference name="target-device" value="tablet"/>
     <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
-    <preference name="webviewbounce" value="true"/>
+    <preference name="webviewbounce" value="false"/>
     <preference name="prerendered-icon" value="true"/>
-    <preference name="stay-in-webview" value="false"/>
+    <preference name="stay-in-webview" value="true"/>
     <preference name="detect-data-types" value="true"/>
     <preference name="exit-on-suspend" value="true"/>
     <preference name="show-splash-screen-spinner" value="true"/>
