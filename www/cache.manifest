@@ -1,6 +1,6 @@
 CACHE MANIFEST
-# hash mQBOXe4iIRKtkG2U+9lXLY9lrjk=
-# uuid d68af2dc4c734ba29c2e8920a0bd79ca
+# hash sxUAFvbM+g3F16yY+yMeCiroYOU=
+# uuid f61abff374054564975b5da7f8be7ac1
 
 AHWR.css
 AHWR.html
@@ -8,6 +8,8 @@ AHWR.js
 AHWR_custom.js
 images/BARC%20LOGO.png
 images/MANUAL.png
+images/mute.png
+images/unmute.png
 res/images/homescreenPrompt.png
 res/images/icon.png
 res/images/sw-alpha-multi.png

@@ -1,15 +1,17 @@
 {
- "uuid" : "d68af2dc4c734ba29c2e8920a0bd79ca", 
+ "uuid" : "f61abff374054564975b5da7f8be7ac1", 
  "mainFile" : "AHWR.html", 
- "wholeFilesHash" : "EI0faWdO3Bx/LztD6x1FVpTDPvI=", 
+ "wholeFilesHash" : "lglX9brCFfLK0TJVwr33pAE0DGI=", 
  "files" : [
-  {"name" : "AHWR.css", "hash" : "kDzZQn0sYz9OhZOIxfEkSPJPwuo=", "generated" : true}, 
-  {"name" : "AHWR.html", "hash" : "AXafojr0PInn9AqRT90XKILEbog=", "generated" : true}, 
-  {"name" : "AHWR.js", "hash" : "OrtMAMOgF+0LruVuUPCZei9Ab4E=", "generated" : true}, 
-  {"name" : "AHWR_custom.js", "hash" : "BLR7Rbgj3x7soaTqabjFz+D/lCQ=", "generated" : false}, 
-  {"name" : "cache.manifest", "hash" : "qVkgkNSwSKRjHw5bOkAXfOlhQlc=", "generated" : true}, 
+  {"name" : "AHWR.css", "hash" : "S/amNsOlVmQB/3vDvie+Pu7+uZY=", "generated" : true}, 
+  {"name" : "AHWR.html", "hash" : "haDptWHk+6GzZIUpoeTM3vl8lyE=", "generated" : true}, 
+  {"name" : "AHWR.js", "hash" : "P06XiDRfbGwoxGVvUCe/T0418To=", "generated" : true}, 
+  {"name" : "AHWR_custom.js", "hash" : "FDTV5kGYJoxysOdZN0irvq7hYd4=", "generated" : false}, 
+  {"name" : "cache.manifest", "hash" : "lgeWOz/aMkh5zGuwl3bUhh5/IM4=", "generated" : true}, 
   {"name" : "images/BARC LOGO.png", "hash" : "YD8Ah03JC96Quov4ZpDz71qf5ZU=", "generated" : true}, 
   {"name" : "images/MANUAL.png", "hash" : "N5+w3PiSE6tsW+R50tgYq/E0+o8=", "generated" : true}, 
+  {"name" : "images/mute.png", "hash" : "FcnXDkzxp1fuiPG3R80F3febzEA=", "generated" : true}, 
+  {"name" : "images/unmute.png", "hash" : "4H75fmb6pvdN7fFUBYF+JFEtJWY=", "generated" : true}, 
   {"name" : "res/images/homescreenPrompt.png", "hash" : "P/v6kOtOHYAiWfpFo/d4S9TMfvs=", "generated" : true}, 
   {"name" : "res/images/icon.png", "hash" : "yKcxtO1SE721CyxkZl/OZslqLOQ=", "generated" : true}, 
   {"name" : "res/images/sw-alpha-multi.png", "hash" : "msgbODRc9VGU22U8qAr0n/b2cts=", "generated" : true}, 
@@ -30,7 +32,7 @@
   {"name" : "rte/cordova.js", "hash" : "sZatax2OK8V3fI115UhXxsg81O8=", "generated" : true}, 
   {"name" : "rte/readme.txt", "hash" : "ZZKxkkIw6YBm1lSag1cPT9O1mMo=", "generated" : true}, 
   {"name" : "rte/rte.js", "hash" : "sZatax2OK8V3fI115UhXxsg81O8=", "generated" : true}, 
-  {"name" : "slider.css", "hash" : "9jpcSyKCtCbhSNyxEaW59pvgEaI=", "generated" : false}
+  {"name" : "slider.css", "hash" : "YIRXCssapQQ/7DcrOGAFEGRrynw=", "generated" : false}
  ], 
  "networkUrls" : ["http://192.168.1.20:8080/"]
 }
