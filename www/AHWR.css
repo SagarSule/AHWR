@@ -1,15 +1,3 @@
-.m1-tabbar{
-  overflow: hidden;
-}
-
-.m1-tabbar-button{
-  overflow: hidden;
-}
-
-.m1-tabbar-button-label{
-  text-align: center;
-}
-
 .m1-multipanel{
   overflow: hidden;
 }
@@ -157,39 +145,7 @@
   background-image: none;
 }
 
-.m1-background-2{
-  background-color: rgba(0,0,0,0);
-  background-image: 
-    -webkit-gradient(linear, 50.0% 0.0%, 50.0% 100.0%, from(rgb(185,185,185)), to(rgb(128,128,128)), color-stop(0.499,rgb(150,150,150)), color-stop(0.501,rgb(144,144,144)));
-}
-
-.m1-selected.m1-background-3{
-  background-color: rgba(0,0,0,0);
-  background-image: 
-    -webkit-gradient(linear, 50.0% 0.0%, 50.0% 100.0%, from(rgb(249,249,249)), to(rgb(192,192,192)), color-stop(0.499,rgb(214,214,214)), color-stop(0.501,rgb(208,208,208)));
-}
-
-.m1-selected.m1-border-1{
-  -webkit-border-radius: 3px;
-}
-
 .m1-font-1{
-  color: rgb(156,154,156);
-  font-family: Helvetica;
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.m1-selected.m1-font-2{
-  color: rgb(255,255,255);
-  font-family: Helvetica;
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.m1-font-3{
   color: rgb(0,0,0);
   font-family: Verdana;
   font-size: 28px;
@@ -201,7 +157,7 @@
   text-shadow: rgb(128,128,128) 0px 1px 1px;
 }
 
-.m1-font-4{
+.m1-font-2{
   color: rgb(0,0,0);
   font-family: Helvetica;
   font-size: 26px;
@@ -209,7 +165,7 @@
   text-decoration: none;
 }
 
-.m1-font-5{
+.m1-font-3{
   color: rgb(0,0,0);
   font-family: Helvetica;
   font-size: 20px;
@@ -217,11 +173,11 @@
   text-decoration: none;
 }
 
-.m1-border-2{
+.m1-border-1{
   -webkit-border-radius: 0px;
 }
 
-.m1-button.m1-font-6{
+.m1-button.m1-font-4{
   color: rgb(228,206,151);
   font-family: Helvetica;
   font-size: 24px;
@@ -229,7 +185,7 @@
   text-decoration: none;
 }
 
-.m1-clicked.m1-button.m1-background-5{
+.m1-clicked.m1-button.m1-background-3{
   background-color: rgb(196,18,47);
   background-image: none;
 }
@@ -238,26 +194,21 @@
   color: rgb(228,206,151);
 }
 
-.m1-background-6{
+.m1-background-4{
   background-color: rgb(226,0,122);
   background-image: none;
 }
 
-.m1-background-4,.m1-clicked.m1-button.m1-background-7{
-  background-color: rgb(126,139,40);
-  background-image: none;
-}
-
-.m1-border-3{
+.m1-border-2{
   -webkit-border-radius: 0px;
 }
 
-.m1-background-8{
+.m1-background-5{
   background-color: rgba(0,0,0,0);
   background-image: none;
 }
 
-.m1-button.m1-font-7{
+.m1-button.m1-font-5{
   color: rgb(0,178,203);
   font-family: Helvetica;
   font-size: 24px;
@@ -265,12 +216,12 @@
   text-decoration: none;
 }
 
-.m1-background-9{
+.m1-background-6{
   background-color: rgb(0,62,134);
   background-image: none;
 }
 
-.m1-clicked.m1-button.m1-background-10{
+.m1-clicked.m1-button.m1-background-7{
   background-color: rgb(0,178,203);
   background-image: none;
 }
@@ -279,7 +230,12 @@
   color: rgb(0,62,134);
 }
 
-.m1-button.m1-font-8{
+.m1-background-2,.m1-clicked.m1-button.m1-background-8{
+  background-color: rgb(126,139,40);
+  background-image: none;
+}
+
+.m1-button.m1-font-6{
   color: rgb(255,255,255);
   font-family: Helvetica;
   font-size: 12px;
@@ -299,7 +255,7 @@ body{
 #m1-AHWR-volumeControl{
   height: 50px;
   left: 75px;
-  top: -244px;
+  top: -195px;
   width: 300px;
 }
 
@@ -309,7 +265,7 @@ body{
   height: 50px;
   left: 0px;
   line-height: 48px;
-  top: -194px;
+  top: -145px;
   width: 50px;
 }
 
@@ -321,11 +277,23 @@ body{
   left: 0px;
   line-height: 50px;
   text-align: center;
-  top: -144px;
+  top: -95px;
   width: 400px;
 }
 
 #m1-AHWR-h_TFSB{
+  -webkit-border-radius: 25px;
+  border-top-color: transparent;
+  border-width: 1px 0px 0px 0px;
+  height: 50px;
+  left: 25px;
+  line-height: 50px;
+  text-align: center;
+  top: 100px;
+  width: 500px;
+}
+
+#m1-AHWR-h_REBOOT{
   -webkit-border-radius: 25px;
   border-top-color: transparent;
   border-width: 1px 0px 0px 0px;
@@ -389,6 +357,66 @@ body{
   width: 100.0%;
 }
 
+#m1-AHWR-v_SF{
+  -webkit-border-radius: 25px;
+  border-top-color: transparent;
+  border-width: 1px 0px 0px 0px;
+  height: 50px;
+  left: 25px;
+  line-height: 50px;
+  text-align: center;
+  top: 150px;
+  width: 500px;
+}
+
+#m1-AHWR-v_SSF{
+  -webkit-border-radius: 25px;
+  border-top-color: transparent;
+  border-width: 1px 0px 0px 0px;
+  height: 50px;
+  left: 25px;
+  line-height: 50px;
+  text-align: center;
+  top: 125px;
+  width: 500px;
+}
+
+#m1-AHWR-v_CAL{
+  -webkit-border-radius: 25px;
+  border-top-color: transparent;
+  border-width: 1px 0px 0px 0px;
+  height: 50px;
+  left: 25px;
+  line-height: 50px;
+  text-align: center;
+  top: 100px;
+  width: 500px;
+}
+
+#m1-AHWR-v_TNF{
+  -webkit-border-radius: 25px;
+  border-top-color: transparent;
+  border-width: 1px 0px 0px 0px;
+  height: 50px;
+  left: 25px;
+  line-height: 50px;
+  text-align: center;
+  top: 75px;
+  width: 500px;
+}
+
+#m1-AHWR-v_NF{
+  -webkit-border-radius: 25px;
+  border-top-color: transparent;
+  border-width: 1px 0px 0px 0px;
+  height: 50px;
+  left: 25px;
+  line-height: 50px;
+  text-align: center;
+  top: 50px;
+  width: 500px;
+}
+
 #m1-AHWR-v_FHO{
   -webkit-border-radius: 25px;
   border-top-color: transparent;
@@ -397,7 +425,7 @@ body{
   left: 25px;
   line-height: 50px;
   text-align: center;
-  top: 19px;
+  top: 25px;
   width: 500px;
 }
 
@@ -704,7 +732,7 @@ body{
   left: 50px;
   line-height: 50px;
   text-align: center;
-  top: 174px;
+  top: 175px;
   width: 350px;
 }
 
@@ -800,7 +828,7 @@ body{
   height: 548px;
   left: 0px;
   line-height: 548px;
-  top: -144px;
+  top: -95px;
   width: 1024px;
 }
 
@@ -808,7 +836,7 @@ body{
   height: 150px;
   left: 0px;
   line-height: 150px;
-  top: -144px;
+  top: -95px;
   width: 150px;
 }
 
@@ -817,7 +845,7 @@ body{
   left: 140px;
   line-height: 26px;
   text-align: center;
-  top: -18px;
+  top: 31px;
   width: 880px;
 }
 
@@ -826,7 +854,7 @@ body{
   left: 140px;
   line-height: 34px;
   text-align: center;
-  top: -24px;
+  top: 25px;
   width: 880px;
 }
 
@@ -835,38 +863,7 @@ body{
   left: 140px;
   line-height: 35px;
   text-align: center;
-  top: -29px;
+  top: 20px;
   width: 880px;
-}
-
-#m1-AHWR-tabBar1-ManualOperations-label{
-  height: 12px;
-  left: 0px;
-  line-height: 12px;
-  margin-right: 0px;
-  top: -19px;
-  width: auto;
-}
-
-#m1-AHWR-tabBar1-ManualOperations-img{
-  height: 50px;
-  left: 334px;
-  top: -9px;
-  width: 350px;
-}
-
-#m1-AHWR-tabBar1-ManualOperations{
-  height: 43px;
-  left: 3px;
-  top: 3px;
-  width: 1018px;
-}
-
-#m1-AHWR-tabBar1{
-  height: 49px;
-  left: 0px;
-  line-height: 49px;
-  top: 544px;
-  width: 1024px;
 }
 
