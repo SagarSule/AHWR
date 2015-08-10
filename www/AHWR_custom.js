@@ -10,6 +10,7 @@ url = "http://192.168.1.20:8080/";
 url1 = "http://192.168.1.21:8080/";
 lang = 0;
 vol = 0.8;
+var myVar;
 
 phoneui.prePageTransition = function(currentScreenId, targetScreenId) {
   // add custom pre-transition code here
@@ -64,17 +65,66 @@ allOff = function()
 	$('#m1-AHWR-a_ST').css({'background-color': 'rgb(0,62,134)'});
 	$('#m1-AHWR-a_wash').css({'background-color': 'rgb(0,62,134)'});
 	$('#m1-AHWR-a_pool').css({'background-color': 'rgb(0,62,134)'});
+	
+	$('#m1-AHWR-a_RB').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_TFSB').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_CLUB').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_FTB').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_NFSB').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_IB').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_SFSB').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_DT').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_ST').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_wash').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-a_pool').css({'color': '#00B2CB'}); //Light Blue
+	
+	$('#m1-AHWR-m_NF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-m_TNF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-m_CAL').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-m_SSF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-m_SF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-m_FHO').css({'background-color': 'rgb(0,62,134)'});	
+	$('#m1-AHWR-v_MC').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-v_NF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-v_TNF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-v_CAL').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-v_SSF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-v_SF').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-v_FHO').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-h_MC').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-h_IFTM').css({'background-color': 'rgb(0,62,134)'});
+	$('#m1-AHWR-h_REBOOT').css({'background-color': 'rgb(0,62,134)'});
+	
+	$('#m1-AHWR-m_NF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-m_TNF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-m_CAL').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-m_SSF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-m_SF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-m_FHO').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-v_MC').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-v_NF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-v_TNF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-v_CAL').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-v_SSF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-v_SF').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-v_FHO').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-h_MC').css({'color': '#00B2CB'}); //Light Blue
+	$('#m1-AHWR-h_IFTM').css({'color': '#00B2CB'}); //Light Blue	
+	$('#m1-AHWR-h_REBOOT').css({'color': '#00B2CB'}); //Light Blue	
 }
+
 
 phoneui.documentReadyHandler = function() {
 	$.get(url + "?Stop=0", function(data,status){});
 	lang = 0;
+	clearInterval(myVar);
 	$.get(url + "?Lang=0", function(data,status){
 		$('#m1-AHWR-lang').css({'background-color': 'rgb(179,126,40)'});
 		$('#m1-AHWR-lang').html('SELECT HINDI');
 	});
 	$('#m1-AHWR-area').css({'background-color': 'rgb(196,18,47)'});//rgb(126,139,40)'});
-//	allOff();​
+	allOff();
+//	allOff1();​
 }
 
 allOn = function()
@@ -90,6 +140,18 @@ allOn = function()
 	$('#m1-AHWR-a_ST').css({'background-color': 'rgb(0,178,203)'});
 	$('#m1-AHWR-a_wash').css({'background-color': 'rgb(0,178,203)'});
 	$('#m1-AHWR-a_pool').css({'background-color': 'rgb(0,178,203)'});
+	
+	$('#m1-AHWR-a_RB').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_TFSB').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_CLUB').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_FTB').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_NFSB').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_IB').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_SFSB').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_DT').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_ST').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_wash').css({'color': '#003E86'}); //Dark Blue
+	$('#m1-AHWR-a_pool').css({'color': '#003E86'}); //Dark Blue
 }
 
 
@@ -132,4 +194,42 @@ phoneui.postSubmitForm_m1_AHWR = function(isSuccess, data) {
     result = false;
   }
   return result;
+}
+
+allOff1 = function()
+{
+	
+}
+
+function myTimer()
+{
+	$.get(url + "?isDone=0", function(data,status){
+	if (data == '1')
+	{
+		allOff();
+		clearInterval(myVar);
+	}
+});
+}
+
+function myTimer1()
+{
+	$.get(url1 + "?isDone=0", function(data,status){
+	if (data == '1')
+	{
+		allOff();
+		clearInterval(myVar);
+	}
+});
+}
+
+function myTimer2()
+{
+	$.get(url + "?isDone=1", function(data,status){
+	if (data == '1')
+	{
+		allOff();
+		clearInterval(myVar);
+	}
+});
 }

@@ -3,17 +3,16 @@
   <head>
     <title>AHWR</title>
     <meta name="generator" content=
-      "MobiOne Studio - Design Center (2.6.2.201408151938), http://genuitec.com/mobile"/>
+      "MobiOne Studio - Design Center (2.6.1.201401091702), http://genuitec.com/mobile"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-    <meta name="viewport" content=
-      " initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="format-detection" content="telephone=no"/>
     <link rel="stylesheet" href="AHWR.css"/>
     <link rel="stylesheet" href="res/spinningwheel.css"/>
     <link rel="stylesheet" href="slider.css"/>
-    <script type="text/javascript" src="phonegap.js"></script>
+    <script type="text/javascript" src="rte/cordova.js"></script>
     <script type="text/javascript" src="rte/rte.js"></script>
     <script type="text/javascript" src="res/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="res/iscroll.js"></script>
@@ -35,164 +34,171 @@
       <canvas class="m1-homescreen-prompt" width="250" height="120"></canvas>
       <!-- ***** AHWR *****  -->
       <div id="m1-AHWR" class="m1-root m1-background-1">
-        <form id="m1_AHWR" action="http://192.168.1.20:8080/" data-transition="DEFAULT" 
-          data-resulttype="DATA_XML" name="m1_AHWR" method="GET">
-          <div id="m1-AHWR-tabBar1" class="m1-tabbar m1-background-2" data-attached-multibox=
-            "m1-AHWR-m_Main">
-            <div id="m1-AHWR-tabBar1-ManualOperations" 
-              class="m1-selected m1-tabbar-button m1-clickable m1-background-3 m1-border-1 m1-font-1 m1-font-2"
-              data-action-click-id="action0" data-attached-multiboxpage="m1-AHWR-ManualOperations">
-              <img id="m1-AHWR-tabBar1-ManualOperations-img" class="m1-image" src=
-                "images/MANUAL.png"/>
-              <label id="m1-AHWR-tabBar1-ManualOperations-label" class="m1-tabbar-button-label"
-                ></label>
-            </div>
-          </div>
-          <div id="m1-AHWR-TITLE" class="m1-text m1-font-3 m1-shadow-1"
-            >MODEL OF FUEL HANDLING SYSTEM OF AHWR</div>
-          <div id="m1-AHWR-text1" class="m1-text m1-shadow-1 m1-font-4"
-            >REFUELLING TECHNOLOGY DIVISION</div>
-          <div id="m1-AHWR-text2" class="m1-text m1-shadow-1 m1-font-5"
-            >BHABHA ATOMIC RESEARCH CENTER</div>
-          <img id="m1-AHWR-image1" class="m1-clickable m1-image" src="images/BARC%20LOGO.png"/>
-          <div id="m1-AHWR-m_Main" class="m1-multipanel">
-            <div id="m1-AHWR-ManualOperations" class="m1-selected m1-multipanel-page">
-              <div id="m1-AHWR-ManualOperations-box" 
-                class="m1-iscroll-wrapper m1-background-1 m1-border-2">
-                <div id="m1-AHWR-anim" 
-                  class="m1-clickable m1-button m1-font-6 m1-background-4 m1-background-5 m1-active-color-1"
-                  name="anim" data-action-click-id="action30">ANIMATION</div>
-                <div id="m1-AHWR-move" 
-                  class="m1-clickable m1-button m1-font-6 m1-background-4 m1-background-5 m1-active-color-1"
-                  name="move" data-action-click-id="action6">OPERATIONS</div>
-                <div id="m1-AHWR-area" 
-                  class="m1-clickable m1-button m1-font-6 m1-background-4 m1-background-5 m1-active-color-1"
-                  name="area" data-action-click-id="action7">AREA IDENTIFICATION</div>
-                <div id="m1-AHWR-home" 
-                  class="m1-clickable m1-button m1-font-6 m1-background-4 m1-background-5 m1-active-color-1"
-                  name="home" data-action-click-id="action5">SETTINGS</div>
-                <div id="m1-AHWR-ohlight" 
-                  class="m1-clickable m1-button m1-font-6 m1-background-4 m1-background-5 m1-active-color-1"
-                  name="ohlight" data-action-click-id="action25">OVERHEAD LIGHTS</div>
-                <div id="m1-AHWR-p_stop" 
-                  class="m1-clickable m1-button m1-font-6 m1-background-5 m1-active-color-1 m1-background-6"
-                  name="p_stop" data-action-click-id="action46">STOP</div>
-                <div id="m1-AHWR-lang" 
-                  class="m1-clickable m1-button m1-font-6 m1-background-4 m1-active-color-1 m1-background-7"
-                  name="lang" data-action-click-id="action47">SELECT HINDI</div>
-                <div id="m1-AHWR-m_Manual" class="m1-multipanel" data-action-changing-id="action29">
-                  <div id="m1-AHWR-p_area" class="m1-selected m1-multipanel-page">
-                    <div id="m1-AHWR-p_area-box" 
-                      class="m1-iscroll-wrapper m1-border-3 m1-background-8">
-                      <div id="m1-AHWR-p_area-box-scroller" class="m1-iscroll-scroller" data-bounce=
-                        "false">
-                        <div id="m1-AHWR-a_All" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_All" data-action-click-id="action28">ALL ON</div>
-                        <div id="m1-AHWR-a_RB" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_RB" data-action-click-id="action16">REACTOR BUILDING</div>
-                        <div id="m1-AHWR-a_TFSB" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_TFSB" data-action-click-id="action17"
-                          >TEMPORARY FUEL STORAGE BAY</div>
-                        <div id="m1-AHWR-a_CLUB" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_CLUB" data-action-click-id="action18"
-                          >CASK LOADING / UNLOADING BAY</div>
-                        <div id="m1-AHWR-a_FTB" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_FTB" data-action-click-id="action19">FUEL TRANSFER BAY</div>
-                        <div id="m1-AHWR-a_NFSB" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_NFSB" data-action-click-id="action20">NEW FUEL STORAGE BAY</div>
-                        <div id="m1-AHWR-a_IB" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_IB" data-action-click-id="action21"
-                          >SPENT FUEL INSPECTION BAY</div>
-                        <div id="m1-AHWR-a_SFSB" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_SFSB" data-action-click-id="action22">SPENT FUEL STORAGE BAY</div>
-                        <div id="m1-AHWR-a_DT" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_DT" data-action-click-id="action23">DRAIN TANK</div>
-                        <div id="m1-AHWR-a_ST" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_ST" data-action-click-id="action32">STORAGE TANK</div>
-                        <div id="m1-AHWR-a_wash" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_wash" data-action-click-id="action33">CASK WASHING</div>
-                        <div id="m1-AHWR-a_pool" 
-                          class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                          name="a_pool" data-action-click-id="action40">FUEL POOL</div>
-                      </div>
+        <div id="m1-AHWR-TITLE" class="m1-text m1-font-1 m1-shadow-1"
+          >MODEL OF FUEL HANDLING SYSTEM OF AHWR</div>
+        <div id="m1-AHWR-text1" class="m1-text m1-shadow-1 m1-font-2"
+          >REFUELLING TECHNOLOGY DIVISION</div>
+        <div id="m1-AHWR-text2" class="m1-text m1-shadow-1 m1-font-3"
+          >BHABHA ATOMIC RESEARCH CENTER</div>
+        <img id="m1-AHWR-image1" class="m1-clickable m1-image" src="images/BARC%20LOGO.png"/>
+        <div id="m1-AHWR-m_Main" class="m1-multipanel">
+          <div id="m1-AHWR-ManualOperations" class="m1-selected m1-multipanel-page">
+            <div id="m1-AHWR-ManualOperations-box" 
+              class="m1-iscroll-wrapper m1-background-1 m1-border-1">
+              <div id="m1-AHWR-anim" 
+                class="m1-clickable m1-button m1-font-4 m1-background-2 m1-background-3 m1-active-color-1"
+                name="anim" data-action-click-id="action30">ANIMATION</div>
+              <div id="m1-AHWR-move" 
+                class="m1-clickable m1-button m1-font-4 m1-background-2 m1-background-3 m1-active-color-1"
+                name="move" data-action-click-id="action6">OPERATIONS</div>
+              <div id="m1-AHWR-area" 
+                class="m1-clickable m1-button m1-font-4 m1-background-2 m1-background-3 m1-active-color-1"
+                name="area" data-action-click-id="action7">AREA IDENTIFICATION</div>
+              <div id="m1-AHWR-home" 
+                class="m1-clickable m1-button m1-font-4 m1-background-2 m1-background-3 m1-active-color-1"
+                name="home" data-action-click-id="action5">SETTINGS</div>
+              <div id="m1-AHWR-ohlight" 
+                class="m1-clickable m1-button m1-font-4 m1-background-2 m1-background-3 m1-active-color-1"
+                name="ohlight" data-action-click-id="action25">OVERHEAD LIGHTS</div>
+              <div id="m1-AHWR-p_stop" 
+                class="m1-clickable m1-button m1-font-4 m1-background-3 m1-active-color-1 m1-background-4"
+                name="p_stop" data-action-click-id="action46">STOP</div>
+              <div id="m1-AHWR-lang" 
+                class="m1-clickable m1-button m1-font-4 m1-background-2 m1-background-3 m1-active-color-1"
+                name="lang" data-action-click-id="action47">SELECT HINDI</div>
+              <div id="m1-AHWR-m_Manual" class="m1-multipanel" data-action-changing-id="action29">
+                <div id="m1-AHWR-p_area" class="m1-selected m1-multipanel-page">
+                  <div id="m1-AHWR-p_area-box" 
+                    class="m1-iscroll-wrapper m1-border-2 m1-background-5">
+                    <div id="m1-AHWR-p_area-box-scroller" class="m1-iscroll-scroller" data-bounce=
+                      "false">
+                      <div id="m1-AHWR-a_All" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_All" data-action-click-id="action28">ALL ON</div>
+                      <div id="m1-AHWR-a_RB" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_RB" data-action-click-id="action16">REACTOR BUILDING</div>
+                      <div id="m1-AHWR-a_TFSB" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_TFSB" data-action-click-id="action17"
+                        >TEMPORARY FUEL STORAGE BAY</div>
+                      <div id="m1-AHWR-a_CLUB" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_CLUB" data-action-click-id="action18"
+                        >CASK LOADING / UNLOADING BAY</div>
+                      <div id="m1-AHWR-a_FTB" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_FTB" data-action-click-id="action19">FUEL TRANSFER BAY</div>
+                      <div id="m1-AHWR-a_NFSB" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_NFSB" data-action-click-id="action20">NEW FUEL STORAGE BAY</div>
+                      <div id="m1-AHWR-a_IB" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_IB" data-action-click-id="action21">SPENT FUEL INSPECTION BAY</div>
+                      <div id="m1-AHWR-a_SFSB" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_SFSB" data-action-click-id="action22">SPENT FUEL STORAGE BAY</div>
+                      <div id="m1-AHWR-a_DT" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_DT" data-action-click-id="action23">DRAIN TANK</div>
+                      <div id="m1-AHWR-a_ST" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_ST" data-action-click-id="action32">STORAGE TANK</div>
+                      <div id="m1-AHWR-a_wash" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_wash" data-action-click-id="action33">CASK WASHING</div>
+                      <div id="m1-AHWR-a_pool" 
+                        class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                        name="a_pool" data-action-click-id="action40">FUEL POOL</div>
                     </div>
                   </div>
-                  <div id="m1-AHWR-p_move" class="m1-multipanel-page">
-                    <div id="m1-AHWR-p_move-box" 
-                      class="m1-iscroll-wrapper m1-border-3 m1-background-8">
-                      <div id="m1-AHWR-m_NF" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="m_NF" data-action-click-id="action34"
-                        >RECEIVE &amp; STORE NEW FUEL IN NFSB</div>
-                      <div id="m1-AHWR-m_TNF" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="m_TNF" data-action-click-id="action35"
-                        >TRANSFER NEW FUEL [FB TO RB]</div>
-                      <div id="m1-AHWR-m_CAL" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="m_CAL" data-action-click-id="action36">REFUELLING OF CORE</div>
-                      <div id="m1-AHWR-m_SSF" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="m_SSF" data-action-click-id="action37"
-                        >TRANSFER SPENT FUEL [RB TO FB]</div>
-                      <div id="m1-AHWR-m_SF" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="m_SF" data-action-click-id="action38">DISPATCH SPENT FUEL</div>
-                      <div id="m1-AHWR-m_FHO" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="m_FHO" data-action-click-id="action50">FUEL HANDLING OPERATIONS</div>
-                    </div>
+                </div>
+                <div id="m1-AHWR-p_move" class="m1-multipanel-page">
+                  <div id="m1-AHWR-p_move-box" 
+                    class="m1-iscroll-wrapper m1-border-2 m1-background-5">
+                    <div id="m1-AHWR-m_NF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="m_NF" data-action-click-id="action34"
+                      >RECEIVE &amp; STORE NEW FUEL IN NFSB</div>
+                    <div id="m1-AHWR-m_TNF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="m_TNF" data-action-click-id="action35"
+                      >TRANSFER NEW FUEL [FB TO RB]</div>
+                    <div id="m1-AHWR-m_CAL" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="m_CAL" data-action-click-id="action36">REFUELLING OF CORE</div>
+                    <div id="m1-AHWR-m_SSF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="m_SSF" data-action-click-id="action37"
+                      >TRANSFER SPENT FUEL [RB TO FB]</div>
+                    <div id="m1-AHWR-m_SF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="m_SF" data-action-click-id="action38">DISPATCH SPENT FUEL</div>
+                    <div id="m1-AHWR-m_FHO" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="m_FHO" data-action-click-id="action50">FUEL HANDLING OPERATIONS</div>
                   </div>
-                  <div id="m1-AHWR-p_anim" class="m1-multipanel-page">
-                    <div id="m1-AHWR-p_anim-box" 
-                      class="m1-iscroll-wrapper m1-border-3 m1-background-8">
-                      <div id="m1-AHWR-v_MC" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="v_MC" data-action-click-id="action31">AHWR OVERVIEW</div>
-                      <div id="m1-AHWR-v_FHO" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="v_FHO" data-action-click-id="action51">FUEL HANDLING OPERATIONS</div>
-                    </div>
+                </div>
+                <div id="m1-AHWR-p_anim" class="m1-multipanel-page">
+                  <div id="m1-AHWR-p_anim-box" 
+                    class="m1-iscroll-wrapper m1-border-2 m1-background-5">
+                    <div id="m1-AHWR-v_MC" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="v_MC" data-action-click-id="action31">AHWR OVERVIEW</div>
+                    <div id="m1-AHWR-v_FHO" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="v_FHO" data-action-click-id="action51">FUEL HANDLING OPERATIONS</div>
+                    <div id="m1-AHWR-v_NF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="v_NF" data-action-click-id="action53"
+                      >RECEIVE &amp; STORE NEW FUEL IN NFSB</div>
+                    <div id="m1-AHWR-v_TNF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="v_TNF" data-action-click-id="action54"
+                      >TRANSFER FRESH FUEL [FB TO RB]</div>
+                    <div id="m1-AHWR-v_CAL" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="v_CAL" data-action-click-id="action55">REFUELLING OF CORE</div>
+                    <div id="m1-AHWR-v_SSF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="v_SSF" data-action-click-id="action56"
+                      >TRANSFER SPENT FUEL [RB TO FB]</div>
+                    <div id="m1-AHWR-v_SF" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="v_SF" data-action-click-id="action57">DISPATCH SPENT FUEL</div>
                   </div>
-                  <div id="m1-AHWR-p_home" class="m1-multipanel-page">
-                    <div id="m1-AHWR-p_home-box" 
-                      class="m1-iscroll-wrapper m1-border-3 m1-background-8">
-                      <div id="m1-AHWR-h_MC" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="h_MC" data-action-click-id="action8">HOME ALL MECHANISMS</div>
-                      <div id="m1-AHWR-h_FPB" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="h_FPB" data-action-click-id="action52">TURN OFF ALL LEDS</div>
-                      <div id="m1-AHWR-h_IFTM" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="h_IFTM" data-action-click-id="action10">SEND RESET COMMAND</div>
-                      <div id="m1-AHWR-h_TFSB" 
-                        class="m1-clickable m1-button m1-font-7 m1-background-9 m1-background-10 m1-active-color-2"
-                        name="h_TFSB" data-action-click-id="action11">TURN OFF COMPUTER</div>
-                    </div>
+                </div>
+                <div id="m1-AHWR-p_home" class="m1-multipanel-page">
+                  <div id="m1-AHWR-p_home-box" 
+                    class="m1-iscroll-wrapper m1-border-2 m1-background-5">
+                    <div id="m1-AHWR-h_MC" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="h_MC" data-action-click-id="action8">HOME ALL MECHANISMS</div>
+                    <div id="m1-AHWR-h_FPB" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="h_FPB" data-action-click-id="action52">TURN OFF ALL LEDS</div>
+                    <div id="m1-AHWR-h_IFTM" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="h_IFTM" data-action-click-id="action10">SEND RESET COMMAND</div>
+                    <div id="m1-AHWR-h_REBOOT" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="h_REBOOT" data-action-click-id="action58">RESTART TV UNIT</div>
+                    <div id="m1-AHWR-h_TFSB" 
+                      class="m1-clickable m1-button m1-font-5 m1-background-6 m1-background-7 m1-active-color-2"
+                      name="h_TFSB" data-action-click-id="action11">TURN OFF COMPUTER</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div id="m1-AHWR-volumebackground" 
-            class="m1-clickable m1-button m1-font-6 m1-background-4 m1-active-color-1 m1-background-7"
-            name="volumebackground"></div>
-          <div id="m1-AHWR-mute" class="m1-clickable m1-button m1-font-8" name="mute" 
-            data-action-click-id="action44"></div>
-          <div id="m1-AHWR-volumeControl" class="m1-custom-html m1-border-2 m1-background-8"
-            ><p></p>
+        </div>
+        <div id="m1-AHWR-volumebackground" 
+          class="m1-clickable m1-button m1-font-4 m1-background-2 m1-active-color-1 m1-background-8"
+          name="volumebackground"></div>
+        <div id="m1-AHWR-mute" class="m1-clickable m1-button m1-font-6" name="mute" 
+          data-action-click-id="action44"></div>
+        <div id="m1-AHWR-volumeControl" class="m1-custom-html m1-border-1 m1-background-5"
+          ><p></p>
 <input id="volslide" type="range" min="0.0" max="1.0" value=".8" step=".01"
 onchange ="vol()">
 
@@ -202,7 +208,6 @@ function vol() {
     $.get(url1 + "?Volume=" + x1, function(data,status){});
 }
 </script></div>
-        </form>
       </div>
     </div>
   </body>
