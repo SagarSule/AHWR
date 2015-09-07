@@ -196,10 +196,6 @@ phoneui.postSubmitForm_m1_AHWR = function(isSuccess, data) {
   return result;
 }
 
-allOff1 = function()
-{
-	
-}
 
 function myTimer()
 {
@@ -208,6 +204,8 @@ function myTimer()
 	{
 		allOff();
 		clearInterval(myVar);
+		$('#m1-AHWR-mute').css({'-webkit-border-image': 'url(images/unmute.png) 1 1 1 1 stretch stretch'});
+
 	}
 });
 }
@@ -217,6 +215,7 @@ function myTimer1()
 	$.get(url1 + "?isDone=0", function(data,status){
 	if (data == '1')
 	{
+		$('#m1-AHWR-mute').css({'-webkit-border-image': 'url(images/unmute.png) 1 1 1 1 stretch stretch'});
 		allOff();
 		clearInterval(myVar);
 	}
@@ -228,6 +227,7 @@ function myTimer2()
 	$.get(url + "?isDone=1", function(data,status){
 	if (data == '1')
 	{
+		$('#m1-AHWR-mute').css({'-webkit-border-image': 'url(images/unmute.png) 1 1 1 1 stretch stretch'});
 		allOff();
 		clearInterval(myVar);
 	}
