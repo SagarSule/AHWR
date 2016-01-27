@@ -19,12 +19,12 @@
     <!-- Uncomment and edit to specify a specific phonegap version 
          otherwise use PhoneGap Build will use the most recent version 
     -->
-    <!-- <preference name="phonegap-version" value="3.5.0"/> -->
+    <preference name="phonegap-version" value="3.6.3"/>
     
-	<preference name="StatusBarOverlaysWebView" value="false"/> 
+	<preference name="StatusBarOverlaysWebView" value="true"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
 	<preference name="StatusBarStyle" value="lightcontent"/>
-    <!-- <preference name="ios-statusbarstyle" value="black-opaque"/> -->
+    	<preference name="ios-statusbarstyle" value="black-opaque"/> 
         
      <!-- For a descripton of preferences see 
      	  http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences 
@@ -35,7 +35,7 @@
     <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
     <preference name="webviewbounce" value="true"/>
     <preference name="prerendered-icon" value="true"/>
-    <preference name="stay-in-webview" value="false"/>
+    <preference name="stay-in-webview" value="true"/>
     <preference name="detect-data-types" value="true"/>
     <preference name="exit-on-suspend" value="true"/>
     <preference name="show-splash-screen-spinner" value="true"/>
