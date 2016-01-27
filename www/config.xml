@@ -6,7 +6,7 @@
 	id="aakararts.ahwr" 
 	version="1.0.0">
     
-    <name>AHWR1</name>
+    <name>AHWR Sagar</name>
     <description>Ipad app to control model of AHWR Fuel Handling System.
 (c)Aakar Arts, 2015</description>
     <author email="contact@aakararts.com" href="http://www.aakararts.com">Aakar Arts</author>
@@ -24,6 +24,7 @@
 	<preference name="StatusBarOverlaysWebView" value="true"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
 <!--	<preference name="StatusBarStyle" value="lightcontent"/> -->
+	<preference name="StatusBarStyle" value="black-opaque"/>
     	<preference name="ios-statusbarstyle" value="black-opaque"/> 
         
      <!-- For a descripton of preferences see 
