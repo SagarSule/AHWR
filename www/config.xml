@@ -23,7 +23,7 @@
     
 	<preference name="StatusBarOverlaysWebView" value="true"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
-	<preference name="StatusBarStyle" value="lightcontent"/>
+<!--	<preference name="StatusBarStyle" value="lightcontent"/> -->
     	<preference name="ios-statusbarstyle" value="black-opaque"/> 
         
      <!-- For a descripton of preferences see 
